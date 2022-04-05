@@ -1,0 +1,12 @@
+C:\Programming\Project\mason-chase\Domain\bin\Debug\net5.0\Domain.deps.json
+C:\Programming\Project\mason-chase\Domain\bin\Debug\net5.0\Domain.dll
+C:\Programming\Project\mason-chase\Domain\bin\Debug\net5.0\ref\Domain.dll
+C:\Programming\Project\mason-chase\Domain\bin\Debug\net5.0\Domain.pdb
+C:\Programming\Project\mason-chase\Domain\obj\Debug\net5.0\Domain.csproj.AssemblyReference.cache
+C:\Programming\Project\mason-chase\Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programming\Project\mason-chase\Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache
+C:\Programming\Project\mason-chase\Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs
+C:\Programming\Project\mason-chase\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache
+C:\Programming\Project\mason-chase\Domain\obj\Debug\net5.0\Domain.dll
+C:\Programming\Project\mason-chase\Domain\obj\Debug\net5.0\ref\Domain.dll
+C:\Programming\Project\mason-chase\Domain\obj\Debug\net5.0\Domain.pdb

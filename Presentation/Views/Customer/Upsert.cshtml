@@ -1,0 +1,148 @@
+﻿@model Domain.Entities.Customer
+
+@{
+    ViewData["Title"] = "Upsert";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 class="text-primary">Upsert Customer</h1>
+
+<hr />
+<input type="hidden" id="Id" asp-for="Id" />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Upsert" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Firstname" class="control-label"></label>
+                <input asp-for="Firstname" id="Firstname" class="form-control" />
+                <span asp-validation-for="Firstname" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Lastname" class="control-label"></label>
+                <input asp-for="Lastname" id="Lastname" class="form-control" />
+                <span asp-validation-for="Lastname" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateOfBirth" class="control-label"></label>
+                <input asp-for="DateOfBirth" id="DateOfBirth" class="form-control" />
+                <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PhoneNumber" class="control-label"></label>
+                <input asp-for="PhoneNumber" type="tel" id="PhoneNumber" class="form-control" />
+                <label class="control-label text-info">*Please enter Your Correct Iranian Mobile*</label>
+                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" id="Email" type="email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BankAccountNumber" class="control-label"></label>
+                <input asp-for="BankAccountNumber" type="number" id="BankAccountNumber" class="form-control" />
+                <span asp-validation-for="BankAccountNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input onclick="saveinfo()" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+<script src="https://unpkg.com/libphonenumber-js@1.9.6/bundle/libphonenumber-max.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+@{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+<script>
+    function saveinfo() {
+        debugger;
+        var st = checkNumber();
+        if (st == true) {
+            var data = new FormData();
+            debugger;
+            data.append("Id", $("#Id").val());
+            data.append("Firstname", $("#Firstname").val());
+            data.append("Lastname", $("#Lastname").val());
+            data.append("DateOfBirth", $("#DateOfBirth").val());
+            data.append("PhoneNumber", $("#PhoneNumber").val());
+            data.append("Email", $("#Email").val());
+            data.append("BankAccountNumber", $("#BankAccountNumber").val());
+
+            debugger;
+
+            // ارسال اطلاعات به کنترلر
+            var ajaxRequest = $.ajax({
+                type: "POST",
+                url: "Upsert",
+                contentType: false,
+                processData: false,
+                data: data,
+                enctype: "multipart/form-data",
+
+                success: function (data) {
+
+                    location.href = "/Customer/Index";
+                }
+
+            }).done();
+        }
+    }
+
+    function checkNumber() {
+        debugger;
+        var st = true;
+        if ($("#Firstname").val() == "") {
+            alert("Please Enter Your Firstname.");
+            st = false;
+        }
+        if ($("#Lastname").val() == "") {
+            alert("Please Enter Your Lastname.");
+            st = false;
+        }
+
+        if ($("#DateOfBirth").val() == "") {
+            alert("Please Enter Your DateOfBirth.");
+            st = false;
+        }
+
+        if ($("#Email").val() == "") {
+            alert("Please Enter Your Email.");
+            st = false;
+        }
+
+        if ($("#BankAccountNumber").val() == "") {
+            alert("Please Enter Your BankAccountNumber.");
+            st = false;
+        }
+        else {
+            debugger;
+            var len = ($("#BankAccountNumber").val()).length;
+            if (len < 8 || len > 18) {
+                alert("Please Enter Correct BankAccountNumber between 8-18 digit.");
+                st = false;
+            }
+
+        }
+        if ($("#PhoneNumber").val() == "") {
+            alert("Please Enter Your PhoneNumber.");
+            st = false;
+        }
+        else {
+            debugger;
+            var tell = document.getElementById("PhoneNumber").value;
+            var chk = libphonenumber.parsePhoneNumber(tell, 'IR').getType();
+
+            if (chk != "MOBILE") {
+                alert("Please Enter Your Correct Mobile Number.");
+                st = false;
+            }
+
+        }
+        return st;
+    }
+
+</script>
