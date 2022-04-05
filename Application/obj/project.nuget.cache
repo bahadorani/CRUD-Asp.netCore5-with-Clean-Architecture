@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DbxPdtBLyQtBRdMjP4J1+sorCg19qUsMU88yUPv3IgHZC/mm4b35vc1BJqEQKF8weiyyr/Xj/3Ewi38/2Lgwqg==",
+  "dgSpecHash": "TykjdYzwp7mDs5G01Kos1B1qfl8/2wxzfXA2Jni054QIchlVBp8E87Yn2jd2Jns7mmjeFP/uATqtvLfOUZ/jDQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Baran\\source\\repos\\CRUD-Asp.netCore5-with-Clean-Architecture\\Application\\Application.csproj",
+  "projectFilePath": "C:\\Programming\\Test\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Baran\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.10\\microsoft.entityframeworkcore.5.0.10.nupkg.sha512",
     "C:\\Users\\Baran\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.10\\microsoft.entityframeworkcore.abstractions.5.0.10.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Baran\\source\\repos\\CRUD-Asp.netCore5-with-Clean-Architecture\\Infrastructure\\Infrastructure.csproj": {}
+    "C:\\Programming\\Test\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Baran\\source\\repos\\CRUD-Asp.netCore5-with-Clean-Architecture\\Application\\Application.csproj": {
+    "C:\\Programming\\Test\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Baran\\source\\repos\\CRUD-Asp.netCore5-with-Clean-Architecture\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Programming\\Test\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\Baran\\source\\repos\\CRUD-Asp.netCore5-with-Clean-Architecture\\Application\\Application.csproj",
+        "projectPath": "C:\\Programming\\Test\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Baran\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Baran\\source\\repos\\CRUD-Asp.netCore5-with-Clean-Architecture\\Application\\obj\\",
+        "outputPath": "C:\\Programming\\Test\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Baran\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Baran\\source\\repos\\CRUD-Asp.netCore5-with-Clean-Architecture\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Baran\\source\\repos\\CRUD-Asp.netCore5-with-Clean-Architecture\\Domain\\Domain.csproj"
+              "C:\\Programming\\Test\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Programming\\Test\\Domain\\Domain.csproj"
               }
             }
           }
@@ -68,14 +68,14 @@
         }
       }
     },
-    "C:\\Users\\Baran\\source\\repos\\CRUD-Asp.netCore5-with-Clean-Architecture\\Domain\\Domain.csproj": {
+    "C:\\Programming\\Test\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Baran\\source\\repos\\CRUD-Asp.netCore5-with-Clean-Architecture\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Programming\\Test\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Baran\\source\\repos\\CRUD-Asp.netCore5-with-Clean-Architecture\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Programming\\Test\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Baran\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Baran\\source\\repos\\CRUD-Asp.netCore5-with-Clean-Architecture\\Domain\\obj\\",
+        "outputPath": "C:\\Programming\\Test\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Baran\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -128,14 +128,14 @@
         }
       }
     },
-    "C:\\Users\\Baran\\source\\repos\\CRUD-Asp.netCore5-with-Clean-Architecture\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Programming\\Test\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Baran\\source\\repos\\CRUD-Asp.netCore5-with-Clean-Architecture\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Programming\\Test\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\Baran\\source\\repos\\CRUD-Asp.netCore5-with-Clean-Architecture\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Programming\\Test\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Baran\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Baran\\source\\repos\\CRUD-Asp.netCore5-with-Clean-Architecture\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Programming\\Test\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Baran\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -152,11 +152,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Baran\\source\\repos\\CRUD-Asp.netCore5-with-Clean-Architecture\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Baran\\source\\repos\\CRUD-Asp.netCore5-with-Clean-Architecture\\Application\\Application.csproj"
+              "C:\\Programming\\Test\\Application\\Application.csproj": {
+                "projectPath": "C:\\Programming\\Test\\Application\\Application.csproj"
               },
-              "C:\\Users\\Baran\\source\\repos\\CRUD-Asp.netCore5-with-Clean-Architecture\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Baran\\source\\repos\\CRUD-Asp.netCore5-with-Clean-Architecture\\Domain\\Domain.csproj"
+              "C:\\Programming\\Test\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Programming\\Test\\Domain\\Domain.csproj"
               }
             }
           }

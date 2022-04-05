@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DesMJ6HcY505bnXMR/ohTPXSfhI+2Gf7rw8hDrhbiJGZfgr22b/WjontafQqMrdyd98K/SBPnT1AN6TAGdgtAw==",
+  "dgSpecHash": "t1otz9lGXLX4JV/PIxj7TVgNEPFi5NYb0/DsOM8GUsbrp6pBb9CW+M7+2Fb2XHKnZ71u4Vof/2lV3G//kLtVzg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Baran\\source\\repos\\CRUD-Asp.netCore5-with-Clean-Architecture\\Presentation\\Presentation.csproj",
+  "projectFilePath": "C:\\Programming\\Test\\Presentation\\Presentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Baran\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Baran\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\5.0.0\\microsoft.aspnetcore.diagnostics.entityframeworkcore.5.0.0.nupkg.sha512",

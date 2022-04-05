@@ -134,12 +134,19 @@
         else {
             debugger;
             var tell = document.getElementById("PhoneNumber").value;
-            var chk = libphonenumber.parsePhoneNumber(tell, 'IR').getType();
-
-            if (chk != "MOBILE") {
-                alert("Please Enter Your Correct Mobile Number.");
+            if (isNaN(tell)) {
+                alert("Please Enter Your Correct PhoneNumber (Number No Letters).");
                 st = false;
             }
+            else {
+                var chk = libphonenumber.parsePhoneNumber(tell, 'IR').getType();
+
+                if (chk != "MOBILE") {
+                    alert("Please Enter Your Correct Mobile Number.");
+                    st = false;
+                }
+            }
+           
 
         }
         return st;

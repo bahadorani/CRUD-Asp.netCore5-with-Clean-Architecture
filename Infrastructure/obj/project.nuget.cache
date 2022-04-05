@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "q38R2uMScio8rSSZaGjKDEK5ebcB1dRJxbIr4+e5TJDpwMPm8JiuyRcPUKivy1K1Q6qE3o8rQKCi8NebLYPyIA==",
+  "dgSpecHash": "kc4mjP4ZqdGpRNRLKTiT1/tH3c+KQMbTZUfpJ27yIJiw91FRnmuEQKuTretD/RkvEbzKfR147jilXVxG99Anww==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Baran\\source\\repos\\CRUD-Asp.netCore5-with-Clean-Architecture\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Programming\\Test\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Baran\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Baran\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

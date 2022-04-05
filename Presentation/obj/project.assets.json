@@ -7382,11 +7382,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Baran\\source\\repos\\CRUD-Asp.netCore5-with-Clean-Architecture\\Presentation\\Presentation.csproj",
+      "projectUniqueName": "C:\\Programming\\Test\\Presentation\\Presentation.csproj",
       "projectName": "Presentation",
-      "projectPath": "C:\\Users\\Baran\\source\\repos\\CRUD-Asp.netCore5-with-Clean-Architecture\\Presentation\\Presentation.csproj",
+      "projectPath": "C:\\Programming\\Test\\Presentation\\Presentation.csproj",
       "packagesPath": "C:\\Users\\Baran\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Baran\\source\\repos\\CRUD-Asp.netCore5-with-Clean-Architecture\\Presentation\\obj\\",
+      "outputPath": "C:\\Programming\\Test\\Presentation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Baran\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7403,14 +7403,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Baran\\source\\repos\\CRUD-Asp.netCore5-with-Clean-Architecture\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\Baran\\source\\repos\\CRUD-Asp.netCore5-with-Clean-Architecture\\Application\\Application.csproj"
+            "C:\\Programming\\Test\\Application\\Application.csproj": {
+              "projectPath": "C:\\Programming\\Test\\Application\\Application.csproj"
             },
-            "C:\\Users\\Baran\\source\\repos\\CRUD-Asp.netCore5-with-Clean-Architecture\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Baran\\source\\repos\\CRUD-Asp.netCore5-with-Clean-Architecture\\Domain\\Domain.csproj"
+            "C:\\Programming\\Test\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Programming\\Test\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\Baran\\source\\repos\\CRUD-Asp.netCore5-with-Clean-Architecture\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Baran\\source\\repos\\CRUD-Asp.netCore5-with-Clean-Architecture\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Programming\\Test\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Programming\\Test\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
